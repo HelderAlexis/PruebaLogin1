@@ -32,6 +32,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -43,6 +44,10 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.github.bumptech.glide:glide:4.8.0")
+    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.github.p32929:AndroidEasySQL-Library:1.4.1")
+
+
 
 
 
